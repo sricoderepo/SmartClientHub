@@ -1,0 +1,36 @@
+button {
+  background-color: rgb(36 120 233);
+  border-color: rgb(36 120 233);
+  border-radius: 5px;
+  color: white;
+  padding: 10px 25px;
+}
+.login-container {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: inherit;
+}
+.login-Box {
+	background-color: rgba(255, 255, 255, 1);
+  border-radius: 12px;
+  box-shadow: 0 0 10px #ccc;
+  min-width: 300px;
+  padding: 50px;
+}
+.field-block {
+  margin-bottom: 15px;
+}
+.field-block:last-child {
+  margin-bottom: 0;
+}
+.field-block label {
+	display: block;
+  font-size: 12px;
+	margin-bottom: 5px;
+}
+.field-block:last-child a {
+  font-size: 14px;
+}
