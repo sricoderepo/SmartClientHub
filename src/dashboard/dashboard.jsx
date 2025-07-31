@@ -1,7 +1,12 @@
+import HeaderMain from '../header/headerMain';
+
 function Dashboard() {
-    return (
-        <div>Dashboard Page goes here</div>
-    )
+	return (
+		<>
+			<HeaderMain />
+			<div>Dashboard Page goes here</div>
+		</>
+	)
 }
 
 export default Dashboard;
