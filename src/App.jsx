@@ -3,7 +3,7 @@ import { useState } from 'react';
 
 import './App.css';
 import Login from './login/login';
-import Dashboard from './dashboard/dashboard';
+import AppLayout from './pages/layouts/appLayout';
 
 function App() {
   let [isUserLoggedIn, setIsUserLoggedIn] = useState(false);
@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
       {
-        isUserLoggedIn ? <Dashboard /> : <Login isLoggedIn={checkIsUserLoggedIn}/>
+        isUserLoggedIn ? <AppLayout /> : <Login isLoggedIn={checkIsUserLoggedIn}/>
       }
     </div>
   );
