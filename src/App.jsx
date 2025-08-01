@@ -6,7 +6,7 @@ import Login from './login/login';
 import AppLayout from './pages/layouts/appLayout';
 
 function App() {
-  let [isUserLoggedIn, setIsUserLoggedIn] = useState(false);
+  let [isUserLoggedIn, setIsUserLoggedIn] = useState(true);
   function checkIsUserLoggedIn() {
     setIsUserLoggedIn(true);
   }

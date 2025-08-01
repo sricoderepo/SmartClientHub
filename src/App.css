@@ -1,8 +1,10 @@
 @import url('../src/login/login.css');
 @import url('../src/header/header.css');
+@import url('../src/pages/layouts/appLayout.css');
+@import url('../src/pages/layouts/sidePanel.css');
 
 html, body {
-  background-color: #c6c6c6;
+  /* background-color: #c6c6c6; */
   height: 100%;
 }
 
@@ -25,6 +27,12 @@ input {
   padding: 10px;
   outline: none;
   width: calc(100% - 23px);
+}
+
+ul, li, ol, li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 #root {
